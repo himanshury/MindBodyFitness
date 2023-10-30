@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BodyFitness</string>
+    <string name="welcome">Welcome To \nBody Fitness</string>
+    <string name="slogan">Let\'s sweat, inspire, and \ntransform together!</string>
+    <string name="start_button">Start your fitness \n adventure now</string>
+    <string name="running_logo">running_logo</string>
+    <string name="signup_here"><u>Didn’t have account Signup here</u></string>
+    <string name="login_here"><u>Already have account Login here</u></string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="hintEmail">eg: ravi01@gmail.com</string>
+    <string name="hintPassword">(Numeric only)</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup">Continue</string>
+    <string name="_hint">RAVI KUMAR</string>
+    <string name="hi_please_login">Hi, \nPlease Login</string>
+    <string name="create_account">Create \nAccount</string>
+    <string name="account_setup">Account \nSetup</string>
+    <string name="wave">wave</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="weight">Weight</string>
+    <string name="goal">Goal</string>
+    <string name="finish">Finish</string>
+    <string name="in_years">(in years)</string>
+    <string name="in_kg">(in Kg)</string>
+    <string name="male_icon">Male Icon</string>
+    <string name="female_icon">Female Icon</string>
+    <string name="aryan_raj">Aryan Raj</string>
+</resources>
