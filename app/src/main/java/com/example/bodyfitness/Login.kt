@@ -1,6 +1,7 @@
 package com.example.bodyfitness
 
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -19,10 +20,15 @@ class Login : AppCompatActivity() {
         firebaseAuth= FirebaseAuth.getInstance()
 
         binding?.loginButton?.setOnClickListener {
-//            val intent= Intent(this,Signup::class.java)
-//            startActivity(intent)
-
             login()
+        }
+
+        //To go to User Signup page
+
+        binding?.signupTV?.setOnClickListener {
+            val intent= Intent(this,Signup::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 
@@ -51,6 +57,9 @@ class Login : AppCompatActivity() {
                 if(it.isSuccessful)
                 {
                     Toast.makeText(this,"User Login successfully!!!",Toast.LENGTH_SHORT).show()
+                    val intent= Intent(this,MainActivity::class.java)
+                    startActivity(intent)
+                    finish()
                 }
                 else
                 {

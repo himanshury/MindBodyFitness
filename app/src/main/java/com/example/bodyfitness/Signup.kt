@@ -1,5 +1,6 @@
 package com.example.bodyfitness
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -23,6 +24,14 @@ class Signup : AppCompatActivity() {
         //Connecting button event and user creation function
         binding?.continueButton?.setOnClickListener{
             signupUser()
+        }
+
+        //To go to user login page
+
+        binding?.loginTV?.setOnClickListener {
+            val intent= Intent(this,Login::class.java)
+            startActivity(intent)
+            finish()
         }
 
 
@@ -70,6 +79,9 @@ class Signup : AppCompatActivity() {
                     //User is created.
                     Toast.makeText(this,"Congratulations!!User created successfully.",Toast.LENGTH_SHORT).show()
                     //Code to be further executed.
+                    val intent= Intent(this,user_detail::class.java)
+                    startActivity(intent)
+                    finish()
                 }
                 else
                 {
