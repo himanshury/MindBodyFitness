@@ -17,16 +17,18 @@
         android:theme="@style/Theme.BodyFitness"
         tools:targetApi="31">
         <activity
-            android:name=".user_detail"
-            android:exported="false" />
+            android:name=".UserDetail"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
         <activity
             android:name=".SplashScreen"
-            android:exported="true">
+            android:exported="false">
 
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
 
         </activity>
 
