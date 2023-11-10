@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "758299742531",
+    "project_id": "mindbodyfitness-39558",
+    "storage_bucket": "mindbodyfitness-39558.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758299742531:android:9e43fa01b9eb5811451ff6",
+        "android_client_info": {
+          "package_name": "com.example.bodyfitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ4gaW9XvzBoFf3_e9kFy8a4TpJURjdvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
