@@ -2,9 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET">
-
-    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -16,12 +14,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BodyFitness"
         tools:targetApi="31">
-
+        <activity
+            android:name=".MuscleMaintain"
+            android:exported="false" />
+        <activity
+            android:name=".FatLoss"
+            android:exported="false" />
+        <activity
+            android:name=".MuscleGain"
+            android:exported="false" />
         <activity
             android:name=".UserDetail"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".SplashScreen"
             android:exported="true">
@@ -33,9 +37,7 @@
         </activity>
         <activity
             android:name=".Signup"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".Login"
             android:exported="false" />

@@ -37,4 +37,20 @@
     <string name="muscle_gain_img">Muscle Gain</string>
     <string name="fat_loss_img">Fat Loss</string>
     <string name="muscle_maintain_img">Muscle Maintain</string>
+    <string name="select_your_exercise">Select Your Exercise</string>
+    <string name="chest_workout">Chest Workout</string>
+    <string name="day_monday">Day: Monday</string>
+    <string name="time">01:00 HRS</string>
+    <string name="chest_muscle">Chest Muscle</string>
+    <string name="go">Go</string>
+    <string name="back_workout">Back Workout</string>
+    <string name="day_tuesday">day: Tuesday</string>
+    <string name="day_wednesday">day: Wednesday</string>
+    <string name="day_thursday">day: Thursday</string>
+    <string name="day_friday">day: Friday</string>
+    <string name="day_saturday">day: Saturday</string>
+    <string name="shoulder_workout">SHOULDER workout</string>
+    <string name="arms_workout">Arms workout</string>
+    <string name="legs_workout">Leg workout</string>
+    <string name="abs_workout">ABS workout</string>
 </resources>

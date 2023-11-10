@@ -7,4 +7,5 @@
     <color name="light_grey">#6C757D</color>
     <color name="grey">#6F6F6F</color>
     <color name="toolbar">#03045e</color>
+    <color name="red">#FF0101</color>
 </resources>
