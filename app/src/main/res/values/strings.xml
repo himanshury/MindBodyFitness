@@ -53,4 +53,12 @@
     <string name="arms_workout">Arms workout</string>
     <string name="legs_workout">Leg workout</string>
     <string name="abs_workout">ABS workout</string>
+    <string name="push_up">Push Up</string>
+    <string name="dumbbell_bench_press">Dumbbell Bench Press</string>
+    <string name="_12_x_3">12 x 3</string>
+    <string name="incline_dumbbell_bench_press">Incline Dumbbell Bench Press</string>
+    <string name="dumbbell_flyes">Dumbbell Flyes</string>
+    <string name="chest_dips">Chest Dips</string>
+    <string name="_10_x_3">10 x 3</string>
+    <string name="decline_dumbbell_bench_press">Decline Dumbbell Bench Press</string>
 </resources>

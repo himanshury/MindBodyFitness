@@ -15,6 +15,24 @@
         android:theme="@style/Theme.BodyFitness"
         tools:targetApi="31">
         <activity
+            android:name=".AbsDay"
+            android:exported="false" />
+        <activity
+            android:name=".LegDay"
+            android:exported="false" />
+        <activity
+            android:name=".ArmsDay"
+            android:exported="false" />
+        <activity
+            android:name=".ShoulderDay"
+            android:exported="false" />
+        <activity
+            android:name=".BackDay"
+            android:exported="false" />
+        <activity
+            android:name=".ChestDay"
+            android:exported="false" />
+        <activity
             android:name=".MuscleMaintain"
             android:exported="false" />
         <activity
