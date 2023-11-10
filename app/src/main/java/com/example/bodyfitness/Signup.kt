@@ -79,7 +79,7 @@ class Signup : AppCompatActivity() {
                     //User is created.
                     Toast.makeText(this,"Congratulations!!User created successfully.",Toast.LENGTH_SHORT).show()
                     //Code to be further executed.
-                    val intent= Intent(this,UserDetail::class.java)
+                    val intent= Intent(this,MainActivity::class.java)
                     startActivity(intent)
                     finish()
                 }

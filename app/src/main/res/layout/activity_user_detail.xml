@@ -205,35 +205,6 @@
             android:layout_height="80dp"
             android:orientation="horizontal"
             android:layout_marginTop="10dp"
-            >
-
-            <TextView
-                android:layout_width="250dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/besley"
-                android:text="@string/goal"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold">
-
-            </TextView>
-
-            <Spinner
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:id="@+id/inputGoal"
-                android:layout_weight="1"
-
-                />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
             android:gravity="center"
             >
             <androidx.appcompat.widget.AppCompatButton
@@ -249,7 +220,12 @@
                 android:textStyle="bold"
                 />
 
+
+
+
         </LinearLayout>
+
+
 
 
     </LinearLayout>

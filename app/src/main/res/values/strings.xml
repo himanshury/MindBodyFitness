@@ -29,4 +29,12 @@
     <string name="male_icon">Male Icon</string>
     <string name="female_icon">Female Icon</string>
     <string name="aryan_raj">Aryan Raj</string>
+    <string name="select_goal">Select Goal</string>
+    <string name="muscle_gain">Muscle Gain</string>
+    <string name="fat_loss">Fat Loss</string>
+    <string name="maintain_muscle">Maintain Muscle</string>
+    <string name="get_started">Get Started</string>
+    <string name="muscle_gain_img">Muscle Gain</string>
+    <string name="fat_loss_img">Fat Loss</string>
+    <string name="muscle_maintain_img">Muscle Maintain</string>
 </resources>
