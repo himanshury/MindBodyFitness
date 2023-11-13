@@ -15,6 +15,24 @@
         android:theme="@style/Theme.BodyFitness"
         tools:targetApi="31">
         <activity
+            android:name=".Dips"
+            android:exported="false" />
+        <activity
+            android:name=".Flyes"
+            android:exported="false" />
+        <activity
+            android:name=".DeclinePress"
+            android:exported="false" />
+        <activity
+            android:name=".InclinePress"
+            android:exported="false" />
+        <activity
+            android:name=".BenchPress"
+            android:exported="false" />
+        <activity
+            android:name=".PushUp"
+            android:exported="false" />
+        <activity
             android:name=".AbsDay"
             android:exported="false" />
         <activity

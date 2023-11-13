@@ -61,4 +61,34 @@
     <string name="chest_dips">Chest Dips</string>
     <string name="_10_x_3">10 x 3</string>
     <string name="decline_dumbbell_bench_press">Decline Dumbbell Bench Press</string>
+    <string name="how_to_do_this">How to do this</string>
+    <string name="push_up_procedure">
+        <b>Position:</b> Start in a plank position with your hands placed slightly wider than shoulder-width apart.\n
+        <b>Alignment:</b> Ensure your body forms a straight line from head to heels, engaging your core muscles.\n
+        <b>Descent:</b> Lower your chest toward the ground by bending your elbows, keeping them close to your body.\n
+        <b>Push:</b> Push back up to the starting position by straightening your arms. Keep your body in a straight line throughout.\n
+        <b>Repeat:</b> Perform the movement for the desired number of repetitions, maintaining proper form.
+    </string>
+    <string name="db_bench_press">
+        <b>Setup:</b> Sit on a flat bench with a dumbbell in each hand.Place the dumbbells on your knees.
+        Carefully lie back on the bench, keeping the dumbbells close to your chest.\n
+        <b>Grip:</b>Hold one dumbbell in each hand.Position the dumbbells at shoulder width, with your palms facing forward.\n
+        <b>Positioning:</b>Press the dumbbells up above your chest.Keep your feet flat on the ground and your back on the bench.Maintain a slight arch in your lower back.\n
+        <b>Descent:</b>Slowly lower the dumbbells to the sides of your chest.Keep your elbows at a 90-degree angle, creating a right angle with your upper arms parallel to the ground.\n
+        <b>Ascent:</b>Push the dumbbells back up to the starting position.Fully extend your arms without locking your elbows.\n
+        <b>Breathing:</b>Inhale as you lower the dumbbells.Exhale as you push them back up.
+    </string>
+    <string name="db_incline_bench_press">
+
+    </string>
+    <string name="db_decline_bench_press">
+
+    </string>
+    <string name="db_flyes">
+
+    </string>
+    <string name="dips">
+
+    </string>
+
 </resources>
