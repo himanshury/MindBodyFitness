@@ -9,11 +9,7 @@
     android:padding="10dp"
     tools:context=".PushUp">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbars="none"
-        >
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,13 +32,19 @@
                 android:gravity="center"
                 android:text="@string/how_to_do_this"
                 android:fontFamily="@font/besleybold"
-                android:textSize="25sp"
+                android:textSize="30sp"
                 android:layout_margin="10dp"
                 android:textColor="@color/dark_blue"
                 android:background="@drawable/textview_bg"
                 >
 
             </TextView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                >
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -64,7 +66,6 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/besley"
                         android:textSize="20sp"
-
                         android:text="@string/push_up_procedure"
                         android:textColor="@color/black"
                         >
@@ -76,6 +77,7 @@
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+            </ScrollView>
 
 
 
@@ -86,7 +88,7 @@
 
 
 
-    </ScrollView>
+
 
 
 

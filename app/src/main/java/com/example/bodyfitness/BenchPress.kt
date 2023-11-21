@@ -2,7 +2,6 @@ package com.example.bodyfitness
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.YouTubePlayerListener
@@ -31,7 +30,7 @@ class BenchPress : AppCompatActivity() {
                     DefaultPlayerUiController(videoPlayer, youTubePlayer)
                 defaultPlayerUiController.showFullscreenButton(true)
                 videoPlayer.setCustomPlayerUi(defaultPlayerUiController.rootView)
-                val videoId = "8iPEnn-ltC8"
+                val videoId = "VmB1G1K7v94"
                 youTubePlayer.cueVideo(videoId, 0f)
             }
         }
