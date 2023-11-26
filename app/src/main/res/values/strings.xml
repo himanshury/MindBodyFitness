@@ -55,11 +55,11 @@
     <string name="abs_workout">ABS workout</string>
     <string name="push_up">Push Up</string>
     <string name="dumbbell_bench_press">Dumbbell Bench Press</string>
-    <string name="_12_x_3">12 x 3</string>
+    <string name="_12_x_3">12 rep x 3 sets</string>
     <string name="incline_dumbbell_bench_press">Incline Dumbbell Bench Press</string>
     <string name="dumbbell_flyes">Dumbbell Flyes</string>
     <string name="chest_dips">Chest Dips</string>
-    <string name="_10_x_3">10 x 3</string>
+    <string name="_10_x_3">10 rep x 3 sets</string>
     <string name="decline_dumbbell_bench_press">Decline Dumbbell Bench Press</string>
     <string name="how_to_do_this">How to do this</string>
     <string name="push_up_procedure">
@@ -169,5 +169,30 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="body_tap">Body Tap</string>
+    <string name="shoulder_pike_pushup">
+        <b>Setup:</b>Start in a plank position with your hands beneath your shoulders.\n
+        <b>Execution:</b>Lift your hips, bringing your body into an inverted V shape.Lower your head towards the ground by bending your elbows.Push back up to the starting position.Repeat for the desired number of repetitions.
+
+
+    </string>
+    <string name="shoulder_db_press">
+        <b>Setup:</b> Sit or stand with a dumbbell in each hand at shoulder height.\n
+        <b>Execution:</b>Press the dumbbells overhead, extending your arms fully.Keep your core engaged and maintain a neutral spine.Lower the dumbbells back to shoulder height in a controlled manner.Repeat for the desired number of repetitions.
+
+    </string>
+    <string name="squats">Squats</string>
+    <string name="lunges">Lunges</string>
+    <string name="dumbbell_row">Dumbbell Row</string>
+    <string name="mountain_climber">Mountain Climber</string>
+    <string name="dumbbell_deadlifts">Dumbbell Deadlifts</string>
+    <string name="burpess">Burpess</string>
+    <string name="plank_with_dumbbell_row">Plank with Dumbbell Row</string>
+    <string name="jump_squats">Jump Squats</string>
+    <string name="russian_twist">Russian Twist</string>
+    <string name="dumbbell_thrusters">Dumbbell Thrusters</string>
+
+    //LEG TUTORIAL
+
 
 </resources>

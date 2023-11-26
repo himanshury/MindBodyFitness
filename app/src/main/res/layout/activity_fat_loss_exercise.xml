@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".FatLossExercise">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolBar"
+        android:background="@color/toolbar"
+        android:textAlignment="textEnd"
+        android:title="@string/select_your_exercise"
+        android:theme="@style/ThemeOverlay.MaterialComponents.ActionBar"
+        android:titleTextColor="@color/white">
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scrollbars="none"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/pushUp"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besleybold"
+                                android:text="@string/push_up"
+                                android:textAllCaps="false"
+                                android:textSize="25sp"
+                                android:textColor="@color/black"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besley"
+                                android:text="@string/_10_x_3"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:textSize="14sp"
+                                android:textColor="@color/red"/>
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/push_up"
+                                android:src="@drawable/pushup"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/go"
+                                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/squats"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besleybold"
+                                android:text="@string/squats"
+                                android:textAllCaps="false"
+                                android:textSize="25sp"
+                                android:textColor="@color/black"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besley"
+                                android:text="@string/_10_x_3"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:textSize="14sp"
+                                android:textColor="@color/red"/>
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/squats"
+                                android:src="@drawable/squats"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/go"
+                                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lunges"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besleybold"
+                                android:text="@string/lunges"
+                                android:textAllCaps="false"
+                                android:textSize="23sp"
+                                android:textColor="@color/black"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besley"
+                                android:text="@string/_10_x_3"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:textSize="14sp"
+                                android:textColor="@color/red"/>
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/lunges"
+                                android:src="@drawable/lunges"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/go"
+                                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dbRow"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besleybold"
+                                android:text="@string/dumbbell_row"
+                                android:textAllCaps="false"
+                                android:textSize="23sp"
+                                android:textColor="@color/black"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besley"
+                                android:text="@string/_12_x_3"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:textSize="14sp"
+                                android:textColor="@color/red"/>
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/dumbbell_row"
+                                android:src="@drawable/dumbbellrow"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/go"
+                                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mountainClimber"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besleybold"
+                                android:text="@string/mountain_climber"
+                                android:textAllCaps="false"
+                                android:textSize="25sp"
+                                android:textColor="@color/black"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besley"
+                                android:text="@string/_12_x_3"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:textSize="14sp"
+                                android:textColor="@color/red"/>
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/mountain_climber"
+                                android:src="@drawable/mountainclimber"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/go"
+                                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dbDeadlift"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besleybold"
+                                android:text="@string/dumbbell_deadlifts"
+                                android:textAllCaps="false"
+                                android:textSize="25sp"
+                                android:textColor="@color/black"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besley"
+                                android:text="@string/_12_x_3"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:textSize="14sp"
+                                android:textColor="@color/red"/>
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/dumbbell_deadlifts"
+                                android:src="@drawable/dumbbell"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/go"
+                                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/burpess"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besleybold"
+                                android:text="@string/burpess"
+                                android:textAllCaps="false"
+                                android:textSize="25sp"
+                                android:textColor="@color/black"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besley"
+                                android:text="@string/_12_x_3"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:textSize="14sp"
+                                android:textColor="@color/red"/>
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/burpess"
+                                android:src="@drawable/burpees"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/go"
+                                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dbShoulderPress2"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besleybold"
+                                android:text="@string/dumbbell_shoulder_press"
+                                android:textAllCaps="false"
+                                android:textSize="25sp"
+                                android:textColor="@color/black"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besley"
+                                android:text="@string/_12_x_3"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:textSize="14sp"
+                                android:textColor="@color/red"/>
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/dumbbell_shoulder_press"
+                                android:src="@drawable/dbpress"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/go"
+                                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/plankDB"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besleybold"
+                                android:text="@string/plank_with_dumbbell_row"
+                                android:textAllCaps="false"
+                                android:textSize="23sp"
+                                android:textColor="@color/black"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besley"
+                                android:text="@string/_12_x_3"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:textSize="14sp"
+                                android:textColor="@color/red"/>
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/plank_with_dumbbell_row"
+                                android:src="@drawable/mountainclimber"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/go"
+                                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/jumpSquats"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besleybold"
+                                android:text="@string/jump_squats"
+                                android:textAllCaps="false"
+                                android:textSize="23sp"
+                                android:textColor="@color/black"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besley"
+                                android:text="@string/_12_x_3"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:textSize="14sp"
+                                android:textColor="@color/red"/>
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/jump_squats"
+                                android:src="@drawable/burpees"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/go"
+                                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/russianTwist"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besleybold"
+                                android:text="@string/russian_twist"
+                                android:textAllCaps="false"
+                                android:textSize="25sp"
+                                android:textColor="@color/black"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besley"
+                                android:text="@string/_12_x_3"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:textSize="14sp"
+                                android:textColor="@color/red"/>
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/russian_twist"
+                                android:src="@drawable/twist"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/go"
+                                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/thrusters"
+                        android:layout_marginTop="15dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besleybold"
+                                android:text="@string/dumbbell_thrusters"
+                                android:textAllCaps="false"
+                                android:textSize="25sp"
+                                android:textColor="@color/black"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/besley"
+                                android:text="@string/_12_x_3"
+                                android:textAllCaps="false"
+                                android:textStyle="bold"
+                                android:textSize="14sp"
+                                android:textColor="@color/red"/>
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/dumbbell_thrusters"
+                                android:src="@drawable/thrusters"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/go"
+                                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                                >
+
+                            </ImageView>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

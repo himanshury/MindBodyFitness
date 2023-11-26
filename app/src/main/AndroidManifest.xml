@@ -15,12 +15,15 @@
         android:theme="@style/Theme.BodyFitness"
         tools:targetApi="31">
         <activity
+            android:name=".FatLossExercise"
+            android:exported="false" />
+
+        <activity
             android:name=".ShoulderReverseFlyes"
             android:exported="false" />
         <activity
             android:name=".ShoulderTap"
             android:exported="false" />
-
         <activity
             android:name=".FrontRaise"
             android:exported="false" />

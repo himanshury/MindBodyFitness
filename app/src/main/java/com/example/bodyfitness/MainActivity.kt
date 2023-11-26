@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding?.fatLossBtn?.setOnClickListener {
-            val intent= Intent(this,MuscleGain::class.java)
+            val intent= Intent(this,FatLossExercise::class.java)
             startActivity(intent)
         }
 

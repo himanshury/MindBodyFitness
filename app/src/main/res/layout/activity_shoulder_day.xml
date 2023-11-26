@@ -28,7 +28,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:scrollbars="none"
             >
@@ -83,11 +83,11 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/besley"
-                                android:text="10 x 3"
+                                android:text="@string/_10_x_3"
                                 android:textAllCaps="false"
-                                android:textStyle="bold"
+                                android:textColor="@color/red"
                                 android:textSize="14sp"
-                                android:textColor="@color/red"/>
+                                android:textStyle="bold" />
 
 
 
@@ -207,8 +207,8 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:contentDescription="@string/dumbbell_bench_press"
-                                android:src="@drawable/flatdbpress"
+                                android:contentDescription="@string/shoulder_db_press"
+                                android:src="@drawable/dbpress"
                                 >
 
                             </ImageView>
@@ -310,8 +310,8 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:contentDescription="@string/incline_dumbbell_bench_press"
-                                android:src="@drawable/inclinedbpress"
+                                android:contentDescription="@string/lateral_raise"
+                                android:src="@drawable/lateralraise"
                                 >
 
                             </ImageView>
@@ -413,8 +413,8 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:contentDescription="@string/decline_dumbbell_bench_press"
-                                android:src="@drawable/declinedbpress"
+                                android:contentDescription="@string/front_raises"
+                                android:src="@drawable/frontraised"
                                 >
 
                             </ImageView>
@@ -619,8 +619,8 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:contentDescription="@string/chest_dips"
-                                android:src="@drawable/dips"
+                                android:contentDescription="@string/body_tap"
+                                android:src="@drawable/pushup"
                                 >
 
                             </ImageView>
