@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding?.muscleMaintainBtn?.setOnClickListener {
-            val intent= Intent(this,MuscleGain::class.java)
+            val intent= Intent(this,MuscleMaintain::class.java)
             startActivity(intent)
         }
 

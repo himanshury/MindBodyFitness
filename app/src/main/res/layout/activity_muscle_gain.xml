@@ -9,6 +9,7 @@
     tools:context=".MuscleGain">
 
     <Toolbar
+
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:id="@+id/toolBar"
@@ -17,6 +18,7 @@
         android:title="@string/select_your_exercise"
         android:theme="@style/ThemeOverlay.MaterialComponents.ActionBar"
         android:titleTextColor="@color/white">
+
     </Toolbar>
 
     <LinearLayout

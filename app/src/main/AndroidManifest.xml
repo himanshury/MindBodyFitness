@@ -15,9 +15,35 @@
         android:theme="@style/Theme.BodyFitness"
         tools:targetApi="31">
         <activity
+            android:name=".Thrusters"
+            android:exported="false" />
+        <activity
+            android:name=".RussianTwist"
+            android:exported="false" />
+        <activity
+            android:name=".JumpSquats"
+            android:exported="false" />
+        <activity
+            android:name=".Plank"
+            android:exported="false" />
+        <activity
+            android:name=".DbDeadlift"
+            android:exported="false" />
+        <activity
+            android:name=".MountainClimber"
+            android:exported="false" />
+        <activity
+            android:name=".DbRow"
+            android:exported="false" />
+        <activity
+            android:name=".Lunges"
+            android:exported="false" />
+        <activity
+            android:name=".Squats"
+            android:exported="false" />
+        <activity
             android:name=".FatLossExercise"
             android:exported="false" />
-
         <activity
             android:name=".ShoulderReverseFlyes"
             android:exported="false" />
