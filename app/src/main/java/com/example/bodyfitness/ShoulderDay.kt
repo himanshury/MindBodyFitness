@@ -34,7 +34,7 @@ class ShoulderDay : AppCompatActivity() {
             startActivity(intent)
         }
         binding?.reverseFlyes?.setOnClickListener {
-            val intent= Intent(this,ShoulderReverseFlyes::class.java)
+            val intent= Intent(this,ReverseFly::class.java)
             startActivity(intent)
         }
         binding?.shoulderTap?.setOnClickListener {

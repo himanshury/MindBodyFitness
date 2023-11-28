@@ -259,6 +259,33 @@
         <b>Lower and Repeat:</b>Lower the dumbbells back down in a controlled manner to the starting position.
 
     </string>
+    <string name="lateral_procedure">
+        <b>STEP 1:</b>Begin standing while holding a dumbbell in each hand at your side. Have the shoulders down and back with a tall posture.\n
+        <b>STEP 2:</b>Raise one arm up and out to the side to shoulder height with the palm facing down.\n
+        <b>STEP 3:</b>Lower that arm down.\n
+        <b>STEP 4:</b>Repeat on the other arm.\n
+        <b>STEP 5:</b>Continue alternating left and right arms.
+
+
+
+    </string>
+    <string name="front_procedure">
+        <b>STEP 1:</b>Begin standing with the feet hip distance apart. Hold a dumbbell in each hand you’re your thighs with a pronated grip (palms facing behind you) and the arms straight.\n
+        <b>STEP 2:</b>While keeping the shoulder blades down and back, raise the dumbbells up to chest height with the palms facing down.\n
+        <b>STEP 3:</b>Then, lower the arms back down toward your thighs with control\n
+        <b>STEP 4:</b>Repeat for the desired repetitions.\n
+
+    </string>
+    <string name="shoulder_tap">
+
+        <b>Starting Position:</b>Begin in a high plank position, with your hands directly under your shoulders and your body forming a straight line from head to heels. Engage your core muscles to maintain stability.\n
+        <b>Tap Alternate Shoulders:</b>Lift your right hand off the ground and touch your left shoulder. Keep your hips square and minimize any twisting or swaying motion in your body.\n
+        <b>Return to Plank:</b>Place your right hand back on the ground in its original position, returning to the high plank.\n
+        <b>Repeat on the Other Side:</b>Lift your left hand off the ground and touch your right shoulder.\n
+
+
+
+    </string>
 
 
 </resources>
