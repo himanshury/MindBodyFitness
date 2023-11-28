@@ -286,6 +286,11 @@
 
 
     </string>
+    <string name="mind_body_fitness">MIND BODY FITNESS</string>
+    <string name="logo">logo</string>
+    <string name="hello_there">Hello There..</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="app_logo">App logo</string>
 
 
 </resources>

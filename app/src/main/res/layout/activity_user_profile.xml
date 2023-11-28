@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10dp"
+    tools:context=".UserProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/applogo"
+            android:contentDescription="@string/app_logo"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="abc@gmail.com"
+            android:id="@+id/email_tv"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/besley"
+            android:layout_marginTop="10dp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="@string/log_out"
+        android:fontFamily="@font/besleybold"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:id="@+id/logout_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

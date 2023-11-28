@@ -1,244 +1,281 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/mainDrawer"
     android:background="@color/white"
     tools:context=".MainActivity">
 
-    <Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:id="@+id/toolBar"
-        android:background="@color/toolbar"
-        android:textAlignment="textEnd"
-        android:title="@string/select_goal"
-        android:theme="@style/ThemeOverlay.MaterialComponents.ActionBar"
-        android:titleTextColor="@color/white">
-    </Toolbar>
 
-    <ScrollView
+
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbars="none">
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
 
-
-
-        <LinearLayout
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="@string/mind_body_fitness"
+                app:navigationIcon="@drawable/ic_hamburger"
+                android:background="@color/dark_blue"
+                style="@style/Widget.MaterialComponents.Toolbar.Primary"
+                />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="15dp"
-                android:orientation="vertical"
-                android:background="@drawable/goal_selector_layout">
+                android:layout_marginTop="12dp"
+                android:orientation="vertical">
 
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/muscle_gain"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/besley"
-                        android:textStyle="bold"
-                        android:textSize="25sp"
-                        android:textColor="@color/black"
-                        android:padding="5dp">
-                    </TextView>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:orientation="horizontal"
-                        android:layout_weight="2">
-
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:contentDescription="@string/muscle_gain_img"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/muscle_gain">
-                    </ImageView>
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/muscleGainBtn"
-                    android:layout_width="290dp"
-                    android:layout_gravity="center"
-                    android:layout_height="49dp"
-                    android:text="@string/get_started"
-                    android:background="@drawable/button_bg"
+                    android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:textSize="20sp"
-                    android:textColor="@color/white"
-                    android:fontFamily="@font/besley"
-                    android:textStyle="bold">
-
-                </androidx.appcompat.widget.AppCompatButton>
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/goal_selector_layout">
 
 
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="15dp"
-                android:orientation="vertical"
-                android:background="@drawable/goal_selector_layout">
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/fat_loss"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/besley"
-                        android:textStyle="bold"
-                        android:textSize="25sp"
-                        android:textColor="@color/black"
-                        android:padding="5dp">
-                    </TextView>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:orientation="horizontal"
-                        android:layout_weight="2">
+                        android:orientation="horizontal">
 
-
-                        <ImageView
+                        <TextView
                             android:layout_width="match_parent"
-                            android:contentDescription="@string/fat_loss_img"
-                            android:layout_height="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/muscle_gain"
                             android:layout_weight="1"
-                            android:src="@drawable/fat_loss">
-                        </ImageView>
+                            android:fontFamily="@font/besley"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:textColor="@color/black"
+                            android:padding="5dp">
+                        </TextView>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:layout_weight="2">
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:contentDescription="@string/muscle_gain_img"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/muscle_gain">
+                            </ImageView>
+
+                        </LinearLayout>
+
 
                     </LinearLayout>
 
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/muscleGainBtn"
+                        android:layout_width="290dp"
+                        android:layout_gravity="center"
+                        android:layout_height="49dp"
+                        android:text="@string/get_started"
+                        android:background="@drawable/button_bg"
+                        android:layout_margin="10dp"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/besley"
+                        android:textStyle="bold">
+
+                    </androidx.appcompat.widget.AppCompatButton>
+
+
 
                 </LinearLayout>
-
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/fatLossBtn"
-                    android:layout_width="290dp"
-                    android:layout_gravity="center"
-                    android:layout_height="49dp"
-                    android:text="@string/get_started"
-                    android:background="@drawable/button_bg"
-                    android:layout_margin="10dp"
-                    android:textSize="20sp"
-                    android:textColor="@color/white"
-                    android:fontFamily="@font/besley"
-                    android:textStyle="bold">
-
-                </androidx.appcompat.widget.AppCompatButton>
-
-
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="15dp"
-                android:orientation="vertical"
-                android:background="@drawable/goal_selector_layout">
-
-
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/goal_selector_layout">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/maintain_muscle"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/besley"
-                        android:textStyle="bold"
-                        android:textSize="25sp"
-                        android:textColor="@color/black"
-                        android:padding="5dp">
-                    </TextView>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:orientation="horizontal"
-                        android:layout_weight="2">
+                        android:orientation="horizontal">
 
-
-                        <ImageView
+                        <TextView
                             android:layout_width="match_parent"
-                            android:contentDescription="@string/muscle_maintain_img"
-                            android:layout_height="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fat_loss"
                             android:layout_weight="1"
-                            android:src="@drawable/maintaince">
-                        </ImageView>
+                            android:fontFamily="@font/besley"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:textColor="@color/black"
+                            android:padding="5dp">
+                        </TextView>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:layout_weight="2">
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:contentDescription="@string/fat_loss_img"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/fat_loss">
+                            </ImageView>
+
+                        </LinearLayout>
+
 
                     </LinearLayout>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/fatLossBtn"
+                        android:layout_width="290dp"
+                        android:layout_gravity="center"
+                        android:layout_height="49dp"
+                        android:text="@string/get_started"
+                        android:background="@drawable/button_bg"
+                        android:layout_margin="10dp"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/besley"
+                        android:textStyle="bold">
+
+                    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/goal_selector_layout">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/maintain_muscle"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/besley"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:textColor="@color/black"
+                            android:padding="5dp">
+                        </TextView>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:layout_weight="2">
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:contentDescription="@string/muscle_maintain_img"
+                                android:layout_height="100dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/maintaince">
+                            </ImageView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/muscleMaintainBtn"
+                        android:layout_width="290dp"
+                        android:layout_gravity="center"
+                        android:layout_height="49dp"
+                        android:text="@string/get_started"
+                        android:background="@drawable/button_bg"
+                        android:layout_margin="10dp"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/besley"
+                        android:textStyle="bold">
+
+                    </androidx.appcompat.widget.AppCompatButton>
+
 
 
                 </LinearLayout>
 
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/muscleMaintainBtn"
-                    android:layout_width="290dp"
-                    android:layout_gravity="center"
-                    android:layout_height="49dp"
-                    android:text="@string/get_started"
-                    android:background="@drawable/button_bg"
-                    android:layout_margin="10dp"
-                    android:textSize="20sp"
-                    android:textColor="@color/white"
-                    android:fontFamily="@font/besley"
-                    android:textStyle="bold">
-
-                </androidx.appcompat.widget.AppCompatButton>
-
-
-
             </LinearLayout>
 
-        </LinearLayout>
+        </ScrollView>
 
-    </ScrollView>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/navigationView"
+        app:headerLayout="@layout/drawer_header"
+        app:menu="@menu/drawer_menu"
+>
+
+    </com.google.android.material.navigation.NavigationView>
 
 
 
-</LinearLayout>
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
