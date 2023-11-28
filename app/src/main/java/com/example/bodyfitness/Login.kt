@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.ActionBar
 import com.example.bodyfitness.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 
@@ -18,6 +19,8 @@ class Login : AppCompatActivity() {
         setContentView(binding?.root)
 
         firebaseAuth= FirebaseAuth.getInstance()
+
+        //supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
         binding?.loginButton?.setOnClickListener {
             login()

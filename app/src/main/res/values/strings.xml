@@ -207,7 +207,58 @@
     <string name="sit_ups">SIT UPs</string>
     <string name="bike_crunches">BIKE CRUNCHES</string>
 
-    //LEG TUTORIAL
+    //Back Tutorial
+
+    <string name="pullUp_tutorial">
+        <b>STEP 1:</b>Begin hanging from a pull-up bar with an overhand grip. The body should be in a straight line from head-to-toe with the spine and hips in neutral and the legs straight. You may cross the legs, if desired.\n
+        <b>STEP 2:</b>Draw your shoulder blades down away from your ears to engage the lats first.\n
+        <b>STEP 3:</b>Now pull your entire body straight up toward the ceiling until your chin is above the bar. The arms will bend as you draw your elbows down toward your rib cage on either side.\n
+        <b>STEP 4:</b>Then, slowly lower your body back down to a dead hang as you straighten the arms overhead.\n
+        <b>STEP 5:</b>Repeat for the desired repetitions.\n
+
+
+    </string>
+    <string name="db_row">
+        <b>STEP 1:</b>Begin standing with the feet hip distance apart and hold a dumbbell in each hand with a neutral grip (palms facing each other).\n
+        <b>STEP 2:</b>Hinge the torso forward to 45-degrees with the arms straight and a slight bend in the knees.\n
+        <b>STEP 3:</b>Row the dumbbells back and up as you squeeze the shoulder blades together.\n
+        <b>STEP 4:</b>Pause for a moment at the top before lowering the dumbbells back down to the start position.\n
+        <b>STEP 5:</b>Repeat for the desired repetitions.\n
+
+    </string>
+    <string name="superman">
+        <b>STEP 1:</b>Begin lying face down with the legs hip distance apart and arms straight overhead by your ears holding one dumbbell. Have your forehead down into the ground.\n
+        <b>STEP 2:</b>Raise your arms, dumbbell, thighs, and forehead up off the ground a couple inches and pause. Be sure to pull the abs up toward the spine and keep your gaze down at the ground.\n
+        <b>STEP 3:</b>Lower the entire body down.\n
+        <b>STEP 4:</b>Repeat for the desired repetitions.\n
+
+
+    </string>
+    <string name="db_pullover">
+        <b>Setup:</b>Lie down on a flat bench with only your upper back and shoulders on the bench. Your feet should be planted firmly on the ground, and your hips should be slightly lower than your shoulders.\n
+        <b>Positioning:</b>Lower the dumbbell backward over your head in a semi-circular motion while keeping a slight bend in your elbows. Your arms should be slightly angled backward, not directly perpendicular to your body.\n
+        <b>Stretch:</b>Lower the dumbbell as far as comfortably possible without allowing your lower back to arch excessively or losing control. You should feel a stretch in your chest and lats.\n
+        <b>Return:</b>Slowly reverse the movement, bringing the dumbbell back to the starting position using the same semi-circular motion.\n
+        <b>Repeat:</b>Repeat the motion for the desired number of repetitions, maintaining control and a steady pace throughout the exercise.
+
+    </string>
+    <string name="renegade_tutorial">
+        <b>STEP 1:</b>Begin holding a kettlebell in each hand and assume a high plank position on them. The kettlebells/hands should be directly under the shoulders. Feet should be hip distance apart with the legs straight. Engage your abs to maintain a neutral spine.\n
+        <b>STEP 2:</b>While keeping your entire body still and in a straight line, row one elbow up and back momentarily.\n
+        <b>STEP 3:</b>Then lower that kettlebell back down to the plank position.\n
+        <b>STEP 4:</b>Repeat the row on the other arm.\n
+        <b>STEP 5:</b>Repeat for the desired repetitions.
+
+
+
+    </string>
+    <string name="reverse_fly">
+        <b>Setup:</b>Stand with your feet shoulder-width apart, knees slightly bent.Hold a dumbbell in each hand with palms facing inward (a pronated grip).\n
+        <b>Positioning:</b>Hinge at your hips to bend forward, keeping your back straight and chest up. Your torso should be almost parallel to the ground. Arms should hang directly below your shoulders.\n
+        <b>Hold and Squeeze:</b>Hold the top position for a moment, emphasizing the contraction in your upper back muscles.
+        <b>Lower and Repeat:</b>Lower the dumbbells back down in a controlled manner to the starting position.
+
+    </string>
 
 
 </resources>

@@ -6,6 +6,10 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".Login">
+
+
+        
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -26,11 +30,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/besleybold"
+        android:padding="3dp"
         android:text="@string/hi_please_login"
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:textStyle="bold"
-        android:padding="3dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

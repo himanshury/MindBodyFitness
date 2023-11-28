@@ -15,6 +15,24 @@
         android:theme="@style/Theme.BodyFitness"
         tools:targetApi="31">
         <activity
+            android:name=".ReverseFly"
+            android:exported="false" />
+        <activity
+            android:name=".RenegadeRow"
+            android:exported="false" />
+        <activity
+            android:name=".PullOver"
+            android:exported="false" />
+        <activity
+            android:name=".SuperMan"
+            android:exported="false" />
+        <activity
+            android:name=".DumbbellRow"
+            android:exported="false" />
+        <activity
+            android:name=".PullUp"
+            android:exported="false" />
+        <activity
             android:name=".Thrusters"
             android:exported="false" />
         <activity
@@ -124,7 +142,8 @@
             android:exported="false" />
         <activity
             android:name=".Login"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".SplashScreen" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
