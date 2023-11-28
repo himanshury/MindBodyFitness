@@ -195,6 +195,14 @@
     <string name="superman_exercise">SUPERMAN EXERCISE</string>
     <string name="dumbbell_pullover">DUMBBELL PULLOVER</string>
     <string name="renegade_rows">RENEGADE ROWS</string>
+    <string name="bicep_curl">BICEP CURL</string>
+    <string name="tricep_dips">TRICEP DIPS</string>
+    <string name="overhead_press">OVERHEAD PRESS</string>
+    <string name="hammer_curl">HAMMER CURL</string>
+    <string name="plank_arm_raises">PLANK ARM RAISES</string>
+    <string name="_20_rep_x_3_sets">20 rep x 3 sets</string>
+    <string name="glute_bridges">GLUTE BRIDGES</string>
+    <string name="calf_raises">CALF RAISES</string>
 
     //LEG TUTORIAL
 
