@@ -291,6 +291,37 @@
     <string name="hello_there">Hello There..</string>
     <string name="log_out">LOG OUT</string>
     <string name="app_logo">App logo</string>
+    <string name="squats_procedure">
+        <b>STEP 1:</b>Begin standing with the feet out wide, toes turned out, and your hands on your hips.\n
+        <b>STEP 2:</b>Lower the hips down and back as you squat down until your hips are below your knees. Be sure to push both knees outward away from each other.\n
+        <b>STEP 3:</b>Once you feel a deep inner thigh stretch, reverse the motion as you stand back upright straightening both legs completely.\n
+        <b>STEP 4:</b>Repeat for the desired repetitions.\n
+
+
+    </string>
+    <string name="lunges_procedure">
+        <b>STEP 1:</b>Begin standing with the feet together and your hands on your hips.\n
+        <b>STEP 2:</b>With one foot, take a large step forward as you lunge down bringing the back knee down toward the ground.\n
+        <b>STEP 3:</b>Once the back knee is about an inch off the ground, reverse the motion as you shift your weight toward the back leg and stand back upright with the feet together again.\n
+        <b>STEP 4:</b>Repeat for the desired repetitions.\n
+
+
+    </string>
+    <string name="mclimber_procedure">
+        <b>STEP 1:</b>Begin in a high plank position on your hands and feet with the hands directly under the shoulders. Be on your toes with the feet hip distance apart. Have your spine in a straight line from head-to-toe.\n
+        <b>STEP 2:</b>Lift one foot off the ground as you bend that knee and crunch the knee toward your chest.\n
+        <b>STEP 3:</b>Straighten that leg to place that foot back on the ground as you crunch the other knee in toward your chest in a quick manner.\n
+        <b>STEP 4:</b>Repeat for the desired repetitions, alternating legs.\n
+    </string>
+    <string name="deadlift_procedure">
+        <b>STEP 1:</b>Begin standing with the dumbbells placed between your feet. Have the feet about hip distance apart and hold a dumbbell in each hand with the arms straight.\n
+        <b>STEP 2:</b>Assume a hinge position as you push the hips back, bend the knees slightly, and engage your abdominals to keep a neutral spine.\n
+        <b>STEP 3:</b>Pull the shoulder blades down and back to engage the lats.\n
+        <b>STEP 4:</b>Then, straighten the legs as you raise the dumbbells straight up off the ground while keeping them close to your shins and thighs.\n
+
+
+
+    </string>
 
 
 </resources>

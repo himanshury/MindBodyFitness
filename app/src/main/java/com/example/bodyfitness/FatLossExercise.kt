@@ -29,7 +29,7 @@ class FatLossExercise : AppCompatActivity() {
         }
 
         binding?.dbRow?.setOnClickListener {
-            val intent= Intent(this,DbRow::class.java)
+            val intent= Intent(this,DumbbellRow::class.java)
             startActivity(intent)
         }
 
